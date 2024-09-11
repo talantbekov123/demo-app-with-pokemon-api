@@ -1,0 +1,25 @@
+{
+    "data": [
+      {
+        "type": "http",
+        "url": "https://pokeapi.co/api/v2/pokemon/1/"
+      },
+      {
+        "type": "condition",
+        "condition": "result['https://pokeapi.co/api/v2/pokemon/1/'].height > 5",
+        "isTrue": [
+          {
+            "type": "http",
+            "url": "https://pokeapi.co/api/v2/pokemon/2/"
+          }
+        ],
+        "ifFalse": [
+          {
+            "type": "http",
+            "url": "https://pokeapi.co/api/v2/pokemon/3/"
+          }
+        ]
+      }
+    ]
+}
+  
