@@ -1,4 +1,4 @@
-## Файл input-example.json содержит данные для POST-запроса.
+## Файл input-example.json(https://github.com/talantbekov123/demo-app-with-pokemon-api/blob/master/input-example.json) содержит данные для POST-запроса.
 ## Эндпоинт: http://localhost:3000/some-endpoint
 
 ## Installation
